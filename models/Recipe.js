@@ -19,7 +19,7 @@ const RecipeSchema = new Schema({
     },
     imageUrl: {
         type: String,
-        required: true
+        required: false
     },
     createdDate: {
         type: Date,

@@ -7,7 +7,7 @@ const typeDefs = gql`
         category: String!
         description: String!
         instructions: String!
-        imageUrl: String!
+        imageUrl: String
         createdDate: String
         likes: Int
         username: String
